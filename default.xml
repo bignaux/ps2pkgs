@@ -18,7 +18,8 @@
 
   <!-- Libraries (PS2/PSP) -->
   <project path="libs/lwnbd" name="lwnbd.git" revision="main" remote="bignaux"/>
-
+  <project path="libs/libtap" name="libtap.git" remote="ps2dev"/>
+  
   <!-- Applications -->
   <project path="apps/helloworld" name="helloworld.git" remote="bignaux"/>
   <project path="apps/open-ps2-loader" name="Open-PS2-Loader.git"/>
