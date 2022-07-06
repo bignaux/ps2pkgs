@@ -11,7 +11,7 @@
   <remote name="ps2max" fetch="https://gitlab.com/ps2max"/>
   <remote name="pspdev" fetch="https://github.com/pspdev"/>
 
-  <default revision="master" remote="ps2homebrew" sync-j="8" groups="notdefault"/>
+  <default revision="master" remote="ps2homebrew" sync-j="8"/>
 
   <!-- build Tools -->
   <project path="tools/clang-format-lint-action" name="DoozyX/clang-format-lint-action.git" remote="github"/>
@@ -19,10 +19,7 @@
   <!-- Libraries (PS2/PSP) -->
   <project path="libs/lwnbd" name="lwnbd.git" revision="main" remote="bignaux"/>
   <project path="libs/libtap" name="libtap.git" remote="ps2dev"/>
-
-  <!-- Applications -->
-  <project path="apps/helloworld" name="helloworld.git" remote="bignaux"/>
-  <project path="apps/open-ps2-loader" name="Open-PS2-Loader.git"/>
+  <submanifest manifest-name="apps.xml" path="apps" groups="apps" default-groups="notdefault"/>
 
   <!-- Assets -->
   <project path="assets/opl-lng" name="Open-PS2-Loader-lang.git" revision="main"/>
