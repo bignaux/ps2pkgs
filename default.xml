@@ -19,7 +19,7 @@
   <!-- Libraries (PS2/PSP) -->
   <project path="libs/lwnbd" name="lwnbd.git" revision="main" remote="bignaux"/>
   <project path="libs/libtap" name="libtap.git" remote="ps2dev"/>
-  <submanifest manifest-name="apps.xml" path="apps" groups="apps" default-groups="notdefault"/>
+  <submanifest name="apps" manifest-name="apps.xml" path="apps" groups="apps" default-groups="notdefault"/>
 
   <!-- Assets -->
   <project path="assets/opl-lng" name="Open-PS2-Loader-lang.git" revision="main"/>
