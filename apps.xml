@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="helloworld.git" path="apps/helloworld" remote="bignaux"/>
+  <project name="Open-PS2-Loader.git" path="apps/Open-PS2-Loader" revision="master" remote="ps2homebrew"/>
+  <project name="ps2client.git" path="apps/ps2client" remote="ps2dev"/>
+  <project name="ps2-packer.git" path="apps/ps2-packer" remote="ps2dev"/>
+</manifest>
