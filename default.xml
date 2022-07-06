@@ -11,7 +11,7 @@
   <remote name="ps2max" fetch="https://gitlab.com/ps2max"/>
   <remote name="pspdev" fetch="https://github.com/pspdev"/>
 
-  <default revision="master" remote="ps2homebrew" sync-j="8"/>
+  <default revision="master" remote="ps2homebrew" sync-j="8" groups="notdefault"/>
 
   <!-- build Tools -->
   <project path="tools/clang-format-lint-action" name="DoozyX/clang-format-lint-action.git" remote="github"/>
