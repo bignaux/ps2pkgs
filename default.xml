@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- see https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.md -->
 <manifest>
   <include name="remote.xml"/>
   <include name="apps.xml" groups="apps,notdefault"/>

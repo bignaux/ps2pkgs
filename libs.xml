@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="lwnbd.git" path="libs/lwnbd" revision="main" remote="bignaux"/>
   <project name="libtap.git" path="libs/libtap" remote="ps2dev"/>
+  <project name="lwnbd.git" path="libs/lwnbd" revision="main" remote="bignaux"/>
 </manifest>
